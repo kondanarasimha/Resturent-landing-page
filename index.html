@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wings Restaurant</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="wingsrestaurant.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="px-3 py-2 header-bgcolour border-bottom">
+      <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="hnh" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <img src="Pngs/original.png" class="restaurant-logo">
+          </a>
+
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small fs-5">
+            <li>
+              <a href="#" class="nav-link text-white icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0)">
+                <svg class="bi d-block mx-auto mb-1" height="30" width="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  fill="#000000"><g id="SVGRepo_bgCarrier"></g><g id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"stroke-linecap="round" stroke-linejoin="round">.st0{fill:#ffffff;} </style> <g> <path class="st0" d="M257.783,144.629v60.21c0,3.854-3.271,6.959-7.308,6.959h-1.948c-4.036,0-7.29-3.105-7.29-6.959V144.35 c0-9.916-7.011-12.882-13.708-12.882c-6.715,0-13.709,2.966-13.709,12.882v60.489c0,3.854-3.288,6.959-7.306,6.959h-1.948 c-4.019,0-7.307-3.105-7.307-6.959v-60.21c0-17.763-26.53-17.162-26.53,0.2c0,20.79,0,57.497,0,57.497 c-0.121,31.924,7.863,40.222,21.068,50.164c10.647,8.012,19.746,12.605,19.746,32.498v127.998h31.975V284.988 c0-19.893,9.081-24.486,19.728-32.498c13.205-9.942,21.19-18.24,21.068-50.164c0,0,0-36.708,0-57.497 C284.314,127.467,257.783,126.866,257.783,144.629z"></path> <path class="st0" d="M344.68,150.622c-6.802,18.172-19.536,62.568-19.536,85.115c-1.775,54.235,27.452,25.165,28.183,67.639 v109.966h31.819l0.157,0.392c0,0,0-0.166,0-0.392c0-5.106,0-65.943,0-128.006c0-61.393,0-123.926,0-134.713 C385.303,128.467,355.241,122.361,344.68,150.622z"></path> <path class="st0" d="M475.332,35.481c-4.419-10.448-11.778-19.285-21.05-25.548c-4.627-3.132-9.742-5.61-15.222-7.315 C433.579,0.913,427.768,0,421.766,0H117.111h-4.888h-21.99c-8.002,0-15.692,1.626-22.651,4.567 C57.126,9.002,48.289,16.344,42.026,25.608c-3.132,4.636-5.62,9.751-7.324,15.23c-1.705,5.463-2.609,11.282-2.609,17.258v395.807 c0,7.976,1.618,15.657,4.575,22.615c4.419,10.448,11.778,19.285,21.034,25.548c4.645,3.131,9.776,5.618,15.239,7.315 C78.42,511.087,84.231,512,90.233,512h21.99h4.888h304.655c7.985,0,15.675-1.626,22.633-4.567 c10.456-4.428,19.311-11.769,25.556-21.042c3.131-4.627,5.637-9.751,7.324-15.222c1.723-5.463,2.628-11.282,2.628-17.266V58.096 C479.907,50.129,478.272,42.439,475.332,35.481z M108.186,480.998H90.233c-3.81-0.008-7.341-0.756-10.577-2.122 c-4.837-2.053-9.012-5.506-11.952-9.847c-1.461-2.166-2.61-4.532-3.392-7.072c-0.783-2.531-1.218-5.228-1.218-8.054V58.096 c0-3.775,0.766-7.298,2.122-10.534c2.053-4.828,5.498-9.002,9.847-11.934c2.174-1.462,4.541-2.619,7.08-3.41 c2.54-0.783,5.237-1.21,8.09-1.218h17.954V480.998z M448.888,453.904c0,3.775-0.747,7.298-2.105,10.534 c-2.053,4.836-5.515,9.002-9.847,11.943c-2.174,1.462-4.558,2.61-7.08,3.401c-2.557,0.783-5.236,1.21-8.089,1.218H126.036V31.001 h295.731c3.792,0.009,7.324,0.766,10.56,2.132c4.853,2.044,9.028,5.506,11.952,9.838c1.461,2.166,2.627,4.541,3.41,7.071 c0.783,2.54,1.2,5.22,1.2,8.055V453.904z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> <path d="M15 18H9"></path> </g> </g></svg>
+                MENU
+              </a>
+            </li>
+            <li>
+              <a href="" class="nav-link text-white fs-5 icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0)">
+
+                <svg fill="#ffffff"  class="bi d-block mx-auto mb-1" width="60" height="30" xmlns="http://www.w3.org/2000/svg" width="300px" height="300px" viewBox="0 0 214.539 214.539" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M121.164,154.578h-6.625V89.14h38.937c4.014,0,7.269-3.254,7.269-7.269s-3.254-7.269-7.269-7.269h-92.41 c-4.014,0-7.269,3.254-7.269,7.269s3.254,7.269,7.269,7.269h38.936v65.438h-6.625c-4.014,0-7.269,3.254-7.269,7.27 c0,4.015,3.254,7.269,7.269,7.269h27.787c4.015,0,7.27-3.254,7.27-7.269C128.433,157.832,125.179,154.578,121.164,154.578z"></path> <path d="M73.783,120.777c0-4.014-3.254-7.269-7.269-7.269H54.833H34.219c-11.08,0-13.41-16.14-13.509-16.869l-6.239-45.122 c-0.55-3.977-4.217-6.748-8.196-6.205c-3.976,0.55-6.754,4.219-6.205,8.196l6.229,45.053c0.831,6.47,4.167,16.593,11.367,23.133 l-7.485,38.956c-0.758,3.942,1.824,7.752,5.766,8.509c3.946,0.761,7.752-1.825,8.509-5.766l6.792-35.349h17.579l6.792,35.349 c0.668,3.479,3.714,5.897,7.13,5.897c0.455,0,0.916-0.043,1.379-0.132c3.942-0.757,6.524-4.566,5.766-8.509l-6.265-32.605h2.883 C70.527,128.046,73.783,124.791,73.783,120.777z"></path> <path d="M208.267,45.313c-3.975-0.543-7.646,2.229-8.196,6.205l-6.244,45.165c-0.094,0.687-2.424,16.827-13.504,16.827h-20.614 h-11.681c-4.014,0-7.27,3.254-7.27,7.269s3.255,7.269,7.27,7.269h2.883l-6.265,32.605c-0.758,3.942,1.824,7.752,5.766,8.509 c3.946,0.761,7.752-1.825,8.509-5.766l6.792-35.349h17.579l6.792,35.349c0.668,3.479,3.714,5.897,7.13,5.897 c0.455,0,0.916-0.043,1.38-0.132c3.941-0.757,6.523-4.566,5.766-8.509l-7.485-38.953c7.198-6.534,10.532-16.64,11.357-23.065 l6.238-45.123C215.021,49.533,212.242,45.863,208.267,45.313z"></path> </g> </g> </g></svg>
+                TABLE BOOKING
+              </a>
+            </li>
+            <li>
+              <a href="homepage.html" class="nav-link text-white icon-link-hover fs-5" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0)">
+                <svg class="bi d-block mx-auto mb-1" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M22 12.2039V13.725C22 17.6258 22 19.5763 20.8284 20.7881C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.7881C2 19.5763 2 17.6258 2 13.725V12.2039C2 9.91549 2 8.77128 2.5192 7.82274C3.0384 6.87421 3.98695 6.28551 5.88403 5.10813L7.88403 3.86687C9.88939 2.62229 10.8921 2 12 2C13.1079 2 14.1106 2.62229 16.116 3.86687L18.116 5.10812C20.0131 6.28551 20.9616 6.87421 21.4808 7.82274" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> <path d="M15 18H9"></path> </g></svg> 
+                HOME
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/photo-1.jpg" class="d-block w-100 border-1">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/photo-2.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/photo-3.jpg" class="d-block w-100">
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <h2 class="text-black text-center restaurant-text d-block fw-bolder">WINGS <span class="restaurant-text">RESTAURANT</span></h2>
+      <div>
+        <p >Each dish is a testament to our commitment to quality and precision, ensuring a dining experience that transcends the ordinary. From globally inspired delicacies to locally sourced ingredients, our menu is a celebration of diverse tastes, inviting you to indulge in a feast that captivates the senses.Discover a world of delectable dishes meticulously crafted to elevate your dining journey at Wings Restaurant.</p>
+      </div>
+    </div>
+    <hr class="container">
+
+    <h2 class="text-center fw-bolder py-4">OUR SPECIALITY</h2>
+    <div class="container">
+      <div class="row">
+          <img class="col-4 col-xs-12 object-fit-cover" src="Images/01.jpg" height="200">
+        <div class="col col-xs-12">
+          <h4 class="fw-bolder hygienic-text">HYGIENIC</h4>
+          <div>
+            <p>Promising you a worry-free and enjoyable dining experience, Trust us to prioritize your well-being and maintain the utmost hygiene at all times.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <div class="row">
+        <div class="col col-xs-12">
+          <h4 class="fw-bolder">TABLE BOOKING</h4>
+          <div>
+            <p class="mb-1">Experience convenience and avoid waiting times by reserving your table in advance Enjoy a hassle-free dining experience with our pre-booking service.</p>
+            <a href="" class="text-decoration-none">BOOK NOW >></a>
+          </div>
+        </div>
+        <img class="col-4 col-xs-12 object-fit-cover" src="Images/02.jpg" height="200">
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <div class="row">
+          <img class="col-4 col-xs-12 object-fit-cover" src="Images/03.jpg" height="200">
+        <div class="col col-xs-12">
+          <h4 class="fw-bolder custmoization-text">CUSTMOIZATION</h4>
+          <div>
+            <p class="mb-2">we customize food to match your unique taste preferences. Your culinary desires take center stage, creating a dining experience tailored just for you.</p>
+            <a href="" class="text-decoration-none">MENU >></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="container">
+
+    <h2 class="text-center fw-bolder py-4">CUSTOMRES REVIEWS</h2>
+    <div class="container">
+    <div class="row d-flex justify-content-between justify-content-xs-center m-auto"> 
+    <div class="card col-4  mb-2" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="card-title fw-bolder m-0">Narasimha</h3>
+        <img src="Pngs/rating 5.png" width="100"> <p class="d-inline fs-6">5/5</p>
+        <p class="card-text">These wings are 🔥! Crispy perfection, amazing flavors. Perfect spot for a chill hangout with friends. 5/5, a must-try for wing lovers! 🍗👌 #WingPerfection</p>
+      </div>
+    </div>
+    <div class="card col-4 mb-2" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="card-title fw-bolder m-0">Nani</h3>
+        <img src="Pngs/rating 4.5.png" width="100"> <p class="d-inline fs-6">4.5/5</p>
+        <p class="card-text">Impeccable hygiene standards at this place! 👌✨ From spotless tables to sanitized utensils, they take cleanliness seriously. A reassuring experience for any diner. 👏🍽️ #HygieneMatters</p>
+      </div>
+    </div>
+    <div class="card col-4 mb-2" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="card-title fw-bolder m-0">Aravind</h3>
+        <img src="Pngs/rating 4.png" width="100"> <p class="d-inline fs-6">4/5</p>
+        <p class="card-text">Smooth table booking experience! 📅🍽️ Quick and easy reservation process – a great way to secure your spot hassle-free. Looking forward to a fantastic dining experience! 👍 #TableBookingWin</p>
+      </div>
+    </div>
+  </div> 
+  </div>
+
+  <div class="bg-body-secondary container-fluid mt-5">
+    <div class="container">
+    <div class="row">
+      <div class="col-6 mt-4">
+            <img class="rounded-2object-fit-cover rounded-3" src="Pngs/Yellow Emblem Food Drink Logo.png" width="85" height="85">
+              <h4 class="fw-bolder m-0">WINGS RESTAURANT</h4>
+              <p class="fs-6">All Rigths reserved</p>
+              <div>
+                <a class="fs-6 text-decoration-none" href="">CONTACT US >></a>
+            </div>
+      </div>
+
+      <div class="col-6 mt-4 d-flex justify-content-end">
+          <div class="row mt-3">
+            <div>
+              <div class="input-group">
+                <input js-email-input type="text" class="form-control js-email-input" placeholder="E-mail" aria-label="Search" aria-describedby="button-addon2" required>
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary js-subscribe-button">SUBSCRIBE</button>
+              </div>
+            </div>
+            <p class="d-inline fw-semibold fs-6 subscribe-text">SUBSCRIBE FOR NEWLETTER</p>
+          </div>    
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </body>
+  <script src="wingsrestaurant.js"></script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</html>

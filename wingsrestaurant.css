@@ -1,0 +1,44 @@
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+  }
+  h4 {
+    letter-spacing: 3px;
+  }
+  h2,h1 {
+    letter-spacing: 4px;
+    
+  }
+  .header-container {
+    background-color: rgba(240, 159, 7, 0.934);
+  }
+  .logo-photo {
+    border-radius: 20px;
+    width: 85px;
+    height: 85px;
+  }
+
+  .header-bgcolour {
+    background-color: rgb(243, 162, 11);
+  }
+  .restaurant-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.674);
+  }
+  .restaurant-text,
+  .ourspeciality-text,
+  .hygienic-text,
+  .custmoization-text {
+    color: rgb(243, 162, 11);
+  }
+  .image-1 {
+    width: 350px;
+    height: 350px;
+  }
+  .subscribe-text {
+    letter-spacing: 2px;
+  }
+
+
